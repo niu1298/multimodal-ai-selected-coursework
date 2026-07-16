@@ -1,0 +1,42 @@
+# Secrets (keep the variable-name-only template)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.lic
+hf_token.txt
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Raw data, generated artifacts, and logs
+data/
+datasets/
+outputs/
+raw_outputs/
+logs/
+traces/
+cache/
+*.log
+
+# OS, editor, and Office temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+~$*

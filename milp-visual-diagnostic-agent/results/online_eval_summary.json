@@ -1,0 +1,29 @@
+[
+  {
+    "config": "A_baseline_builtin",
+    "n": 5,
+    "success_rate": 0.0,
+    "format_rate": 0.0,
+    "mean_partial_score": 0.0,
+    "avg_latency_sec": 33.3892,
+    "tool_error_rate": 0.0
+  },
+  {
+    "config": "B_custom_tools",
+    "n": 5,
+    "success_rate": 0.0,
+    "format_rate": 0.6,
+    "mean_partial_score": 0.066667,
+    "avg_latency_sec": 14.758,
+    "tool_error_rate": 0.0
+  },
+  {
+    "config": "B_vision_enhanced",
+    "n": 5,
+    "success_rate": 0.4,
+    "format_rate": 1.0,
+    "mean_partial_score": 0.4,
+    "avg_latency_sec": 2.8712,
+    "tool_error_rate": 0.0
+  }
+]
